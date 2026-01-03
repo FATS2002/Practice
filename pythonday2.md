@@ -210,10 +210,91 @@ Identifiers
 
 
 ##### meaning of datatype:- if you take any data if belong sto some types
+#### how many datatypes available in python(14 types) (python3 version)
+ fundamental datatype
+   1.int
+   2. float
+   3.complex
+   4. bool
+   5. str
+  intermediate datatype
+  6.bytes
+  7.bytearray
+
+  
+advanced datatype
+8.list
+9.typle
+10.set
+11.frozenset
+12.dict
+
+additional datatypes
+13.range
+14.None
+
+Main pillars of datastructures in python.
+'''
+# java
+int a = 10; (statically typed programming language) (our responsibility to tell the datatype in java)
+
+# python (we need not to tell dataype ,dynamically it will take datatype)
+a = 10 
+'''
 
 
-#### how many datatypes available in python(14 types)
 
+
+# integer
+a= 10
+print(a)
+print(id(a))  #address (of that data where it is present in memory)
+print(type(a)) #type is a buildin function(Type)
+
+
+output: 
+10
+140522489325928
+<class 'int'>
+
+
+** Process exited - Return Code: 0 **
+
+
+ 
+Important point:- everything you store in python is considered as data,and everydata in background is treated as object.
+
+
+# float
+a= 10.5
+print(a)
+print(id(a))
+print(type(a))
+
+10.5
+139714664918992
+<class 'float'>
+** Process exited - Return Code: 0 **
+
+
+# complex(real numbers and imaginary number)
+a= 10+ 2j
+print(a)
+print(id(a))
+print(type(a))
+(10+2j)  # simple bracket means tuple datatype.
+140561710906480
+<class 'complex'>
+** Process exited - Return Code: 0 **
+
+
+
+# bool(binary value 0 or 1)
+a = False
+a= True
+print(a)
+print(id(a))
+print(type(a))
 
 
 
