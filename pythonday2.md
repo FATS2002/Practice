@@ -119,7 +119,7 @@ underscore can be used in beginning ,inbtw and end
 print = 100
 print(print)
 ```
-##### 2.Reserved keywords
+##### 2.Reserved keywords: These are the builtin keywords used for specific task which can not be used as identifiers
 
 ```
 from keywords import list
@@ -146,6 +146,65 @@ print(max) # valid
 input =10
 print(input) #valid
 ```
+
+
+
+
+
+
+##### datatypes in python:-
+Type of the data is called as datatype.  Every data is classified under certain types.
+Fundam=mental datatypes
+##### 1.int<br> 2.float 3.complex 4.bool 5.str 
+##### Intermediate datatype
+6.byte 
+7 bytearray
+##### advanced datatype
+8.list
+9.tuple
+10.set
+11.frozenset
+12.dict
+##### additional datatype
+13.range
+14.none         
+
+```
+a =10
+print(a)
+print(type(a))
+
+a =10.5
+print(a)
+print(type(a))
+
+a =10 +2j
+print(a)
+print(type(a))
+
+a =True
+print(a)
+print(type(a))
+
+int a = 10;
+```
+
+output:-
+```
+10
+<class 'int'>
+10.5
+<class 'float'>
+10 + 2j
+<class 'complex'>
+True
+<class 'bool'>
+```
+
+
+
+
+
 
 
 
