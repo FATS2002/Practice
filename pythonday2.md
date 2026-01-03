@@ -202,6 +202,19 @@ True
 ```
 
 
+##### python day -03
+Lang fundmentals
+Identifiers
+2.reserved keywords
+3. dataypes
+
+
+##### meaning of datatype:- if you take any data if belong sto some types
+
+
+#### how many datatypes available in python(14 types)
+
+
 
 
 
