@@ -278,23 +278,44 @@ print(type(a))
 
 
 # complex(real numbers and imaginary number)
+```
 a= 10+ 2j
 print(a)
 print(id(a))
 print(type(a))
+```
+##### output
+```
 (10+2j)  # simple bracket means tuple datatype.
 140561710906480
 <class 'complex'>
 ** Process exited - Return Code: 0 **
-
+```
 
 
 # bool(binary value 0 or 1)
+```
 a = False
 a= True
 print(a)
 print(id(a))
 print(type(a))
+```
+#### output
+
+```
+True
+139909092889504
+<class 'bool'>
+
+** Process exited - Return Code: 0 **
+```
+
+
+
+
+
+
 
 
 
