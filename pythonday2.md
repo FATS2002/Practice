@@ -424,8 +424,104 @@ print(h)
 ```
 
 
+##### bytes datatype:-  </br> bits and bytes
+
+0-1-> (binary)
+8 bits -> 1 byte
+1024 byte -> 1 Kb
+1024 Kb -> 1Mb
+1024 Mb -> 1gb
+1024gb -> 1tb
 
 
+
+
+
+#### bytes
+```
+a = 10, 20,30 ,40
+print(a)
+print(type(a))
+
+a = 10, 20,30 ,40
+print(a)
+a = bytes(a)
+print(type(a))
+
+```
+
+```
+(10,20,30,40)
+<class 'tuple'>
+```
+##### bytes disadvantages:-
+
+
+
+```
+a = 10, 20,30 ,40
+print(a)
+a = bytes(a)
+print(type(a))
+
+
+a = 10, 20,30 ,40
+print(a)
+a = bytes(a)
+print(a)
+for i in a:
+ print(i)
+print(type(a))
+
+print(a[0])  # 10
+print(a[1])  # 20
+print(a[2]) # 30
+
+
+a[1] =  'abcd'
+print(a[1])  # immutable in nature(modifiable or non modifiable)
+
+
+
+
+
+
+# when ever we are printng bytes ,it displays address of that function
+# we can access directly -no
+# we can acces using loops - yes
+
+```
+
+
+
+##### bytearray
+```
+a =10,20,30,40
+print(a)
+a= bytearray(a)
+print(type(a))
+
+for i in a:
+ print(i)
+print(a[1]) # 20
+print()
+a[1] = 45  # mutable in nature or modifiable
+for i in a:
+ print(i)
+
+
+a[1] ='abcd'
+a[1] = 345
+for i in a:
+ print(i)
+
+
+
+a[1] ='abcd'
+a[1] = 345
+print(a[1])
+
+```
 
 
 
