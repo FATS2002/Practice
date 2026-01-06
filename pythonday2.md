@@ -522,8 +522,24 @@ a[1] = 345
 print(a[1])
 
 ```
+concepts:-
 
+int : decimal
+</br> binary
+</br> octal
+</br>hexadecimal
+float 
+complex
+bool str
 
+#### intermmediate datatypes:-
+bytes
+</br> bytearray
+#### advance datatypes
+list 
+</br> tuple
+</br> set
+</br> dict
 
 
 
