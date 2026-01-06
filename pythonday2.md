@@ -390,9 +390,39 @@ print(a)
 #### in python3 ,for integer datatypes suppport 4 diff types of number formatting. decimal ,binary octal ,hexdecimal
 
 
-Example:- for binary "0b" 
-<br> for octal "0o" 
-<br> for hexdecimal "0x"
+#### Example:- for binary "0b"  <br> for octal "0o"  <br> for hexdecimal "0x"
+
+
+
+
+
+##### base conversion
+```
+a =15   # decimal to binary
+print(a)
+
+b= bin(a) # builtin func for binary conversion
+print(b)
+
+a = 45
+print(a)
+o= oct(a)
+print(o)
+
+
+a =123
+print(a)
+h = hex(a)
+print(h)
+
+
+
+```
+#### output
+```
+
+```
+
 
 
 
