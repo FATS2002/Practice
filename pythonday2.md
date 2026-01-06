@@ -313,6 +313,92 @@ True
 
 
 
+##### string :- alphabet,group of alphabets,
+
+
+```
+a= 's'
+print(a)
+print(type(a)) # type
+
+a= ''   # empty string
+print(a)
+print(type(a)) # type
+
+
+a= 'sagar'  # group of characters
+print(a)
+print(type(a)) # type
+
+```
+
+#### empty string is considered as string only in python 3
+output
+```
+s
+<class 'str'>
+
+<class 'str'>
+sagar
+<class 'str'>
+```
+
+
+##### string datatyp in detail:
+
+##### string objects: it is stored in<br> form of indexing mechanism.
+<br> int datatype: multiple no formatting 
+<br> 10 -> decimal format(default)
+<br> binary format 0-1
+<br> octal format 0-7
+<br> hexa decimal format  0-9  a-f
+#### examples for the above:-
+```
+a = 10
+print(a)
+a = 0b10
+print(a)   
+a= 0B11
+print(a)
+a= 0B12
+print(a)
+a = 123
+print(a)
+
+a = 0o123
+print(a)
+
+a = 0O123
+print(a)
+
+a = 0o148(0 to 7)
+print(a)
+a=349
+a= 0x349
+a=0xface
+a= 0xbook
+print(a)
+
+```
+##### output
+```
+10
+2
+3
+```
+
+#### in python3 ,for integer datatypes suppport 4 diff types of number formatting. decimal ,binary octal ,hexdecimal
+
+
+Example:- for binary "0b" 
+<br> for octal "0o" 
+<br> for hexdecimal "0x"
+
+
+
+
+
+
 
 
 
