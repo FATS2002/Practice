@@ -94,12 +94,12 @@ print(type(lst))
 
 ##### operators in python
 operators is a symbol that perfomrs certain operations.python provides the following set of operators.
-1.aritmetic operators.
-2. relational operatos or comparision operators
-3.logical operators
-4.bitwise operators
-5.assignment opertors
-6.special operators
+1.aritmetic operators.</br>
+2. relational operatos or comparision operators</br>
+3.logical operators</br>
+4.bitwise operators</br>
+5.assignment opertors</br>
+6.special operators</br>
 
 
 
@@ -134,7 +134,26 @@ print('a**b', a**b)
 ###### Example:-
 
 a = 'Sagar'
-b ='10' # 10 is value which is pre
+# b= 10
+b ='10' # 10 is integer g which is presenet inside the string(datatype of b is string)
+print('a+b', a+b)
+
+
+##### output:-(string concatination)
+```
+```
+
+
+##### integer and string with mul  (valid)
+```
+a = 5
+b = 'sagar'
+print('a*b', a*b)
+
+print('sagar\n' * 5)  # prints ur name 5 times
+```
+
+
 
 
 
