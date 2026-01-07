@@ -148,11 +148,15 @@ b = 'sagar'
 print('a*b', a*b)
 print('sagar\n' * 5)  # prints ur name 5 times
 ```
+##### output 
+```
+```
 #### Examplees:- 
 ```
 str+ str  -> valid </br>
 str * int -> valid (reverse of this is invalid)
 ```
+
 
 
 
@@ -169,6 +173,9 @@ print( 3+10 * 2)  # result = 23
 print((3+10)* 2)  # result = 26 
 print(3+(10* 2)) # result = 23
 ```
+##### output
+```
+```
 
 
 
@@ -184,19 +191,54 @@ print(a+(b+c)/d)
 # paranthesis (20+10)
 # division 30/ 5 (result = 3)
 # addition (30 +3) result 33
-
-
 ```
-
+##### output
+```
+```
 
 #### Notes : refer day-6 sir notes for operator.
 
 
+##### relational operator </br> Examples
+```
+# , >=, < ,<=
+```
 
 
+##### practice program example
+```
+a= 10
+b= 2
+print('a>b', a>b)
+print('a>=b',a>=b)
+print('a<b', a<b)
+print('a<=b',a<=b)
+```
+##### output
+```
+```
 
 
+##### Task: check out for strings and bool wrt to relational operators
 
+##### chaining wrt to relational operators
+```
+print(10<20)
+print(10<20<30)
+print(10<20<30>40)
+print(10<20>30<40)
+```
+##### output
+```
+```
+##### note: chaining of  relational operator is possible if all the results are true then</br> end result will be true else it will be false
+
+
+##### 2.1 Equality operators AND(comparision operator )
+
+##### Examples:-
+```
+```
 
 
 
