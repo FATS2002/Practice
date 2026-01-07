@@ -282,6 +282,68 @@ a!=b True
 
 
 
+##### logical operators : </br> the logical operators are:</br> and or not
+
+
+##### For boolean values types:
+##### and -> if both inputs are true then end reult is true</br> or -> if atleast one input is true then the result is true</br> not -> complement or reverse of the input
+
+##### bool datatype(and)
+
+##### Ex
+```
+print(False and False) # False
+print(False and True) # False
+print (True and False) # False
+print(True and True) # True
+```
+##### bool datatype(or)
+#### Ex
+```
+print(False or False)  # False
+print(False or True) # True
+print(True or False) # True
+print(True or True)  # True
+```
+#### logical operators on non bool datatype
+```
+print(4 and 5) # 5
+```
+
+
+
+
+##### For non-boolean types:
+#### 0 means False </br>non-zero means True </br>empty string is always treated as False
+
+#### x and y: </br> if x is evalutes to false return x otherwise return y. 
+```
+print (10 and 20)
+print(0 and 20)
+print('subbu' and 'anu')
+print("" and'anu')
+```
+
+##### x or y: if x is evalutes to true return x otherwise return y
+
+```
+print(10 or 20)
+print(0 or 20)
+print('subbu' or 'anu')
+print("" or "anu")
+```
+
+
+##### not x: if x is false then result is true else result is false.
+
+```
+```
+
+
+
+
+
+
 
 
 
