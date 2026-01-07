@@ -31,6 +31,7 @@ print(type(a))  # int
 print(type(b))  # float
 
 
+#
 
 
 
@@ -93,7 +94,7 @@ print(type(lst))
 ```
 
 ##### operators in python
-operators is a symbol that perfomrs certain operations.python provides the following set of operators.
+operators is a symbol that performs certain operations.python provides the following set of operators.
 1.aritmetic operators.</br>
 2. relational operatos or comparision operators</br>
 3.logical operators</br>
@@ -116,7 +117,7 @@ operators is a symbol that perfomrs certain operations.python provides the follo
 
 ```
 
-
+```
 a= 10
 b = 2
 print('a+b' , a+b)
@@ -126,18 +127,18 @@ print('a/b', a/b)
 print('a%b',a%b)
 print('a//b',a// b)
 print('a**b', a**b)
-
+```
 ##### output
 ```
 ```
 
 ###### Example:-
-
+```
 a = 'Sagar'
 # b= 10
 b ='10' # 10 is integer g which is presenet inside the string(datatype of b is string)
 print('a+b', a+b)
-
+```
 
 ##### output:-(string concatination)
 ```
@@ -148,10 +149,57 @@ print('a+b', a+b)
 ```
 a = 5
 b = 'sagar'
-print('a*b', a*b)
 
+print('a*b', a*b)
 print('sagar\n' * 5)  # prints ur name 5 times
 ```
+#### Examplees:- 
+```
+str+ str  -> valid </br>
+str * int -> valid (reverse of this is invalid)
+```
+
+
+
+
+##### WAP to get the result for a plus b whole square.  (a + b) square
+
+```
+# input value of a and b  
+a = 5
+b = 2
+a square + b square + 2ab 
+# PEMDAS rule (Paranthesis,Exponents, multiplication, division ,addition ,& multiplication)
+print( 3+10 * 2)  # result = 23
+print((3+10)* 2)  # result = 26 
+print(3+(10* 2)) # result = 23
+```
+
+
+
+```
+a = 30 
+b = 20
+c = 10 
+d = 5
+print((a+b) * (c/d)) # paranthesis(30 + 20)
+#  division (10/5)
+# multipliation   50 * 2 (result = 100)
+print(a+(b+c)/d)
+# paranthesis (20+10)
+# division 30/ 5 (result = 3)
+# addition (30 +3) result 33
+
+
+```
+
+
+
+
+
+
+
+
 
 
 
