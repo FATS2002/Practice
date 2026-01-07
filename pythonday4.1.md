@@ -1,40 +1,35 @@
 ##### python day 4.1
 
-identifiers 
-reserved keywords
-dataypes
-mutability and immutability(modifiable and non modifiable)
-typecasting
+##### 1.identifiers </br>2.reserved keywords </br>3. dataypes </br> 4. mutability and immutability(modifiable and non modifiable) </br >typecasting
 
 Missing concepts:- Range and none
 ##### all fundamental datatypes are immutable in nature,tuple is immutable,frozenset is immutable
 </br>and list,set and dict are mutable in nature
 
 
-type casting: - changing the datatype to one datatype to another datatype is known as type casting.
+##### type casting: - changing the datatype to one datatype to another datatype is known as type casting.
 
-type casting in other languagues,you are range of memory for every datatypes,int means 4 bytes</br>
+##### type casting in other languagues,you are range of memory for every datatypes,int means 4 bytes</br>
 double means 8 bytes, </br> implicit type casting and explicit typecasting.
 converting form lower datatype to higher datatype, or higher datatype to lower datatype
 Example:-
-
+```
 a= 10
 print(a)
 print(type(a))
+```
 
-changing to float
+##### changing to float
+```
 a = 10
 print(a)
 b = float(a)
 print(b)
 print(type(a))  # int
 print(type(b))  # float
+```
 
-
-#
-
-
-
+#### wap 
 ```
 lst=[10,20,30]
 print(lst)
@@ -52,17 +47,18 @@ print(type(t))
 ###### hw:- int -> float </br> int -> complex </br> int -> bool</br> int -> str</br> float -> int </br> float -> complex </br> float -> bool </br> float with string, </br> complex -> integer </br> complex-> float </br> all combinations with fundamental datypes we need to try it out. 
 
 ##### int to List:- 
+```
 a = 10
 print(a)
 print(type(a))
 lst = lst(a) # converting to list
 print(lst)
 print(type(lst))
-
+```
 ##### output
 ```
 ```
-1.all fundamental datatypes are capable of holding one element</br>2.all advance datatypes are holding multuiple elements</br> or more than one elements
+##### 1.all fundamental datatypes are capable of holding one element</br>2.all advance datatypes are holding multuiple elements</br> or more than one elements
 #### reverse
 
 ```
@@ -78,8 +74,7 @@ print(type(lst))
 
 ```
 
-all fundamental datatypes are holding single elements, so hence it is not possible.
-
+##### all fundamental datatypes are holding single elements, so hence it is not possible.
 
 a = 'python'  # string
 print(type(a))
