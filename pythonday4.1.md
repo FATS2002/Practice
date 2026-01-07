@@ -216,6 +216,10 @@ print('a<=b',a<=b)
 ```
 ##### output
 ```
+a>b True
+a>=b True
+a<b False
+a<=b False
 ```
 
 
@@ -223,24 +227,53 @@ print('a<=b',a<=b)
 
 ##### chaining wrt to relational operators
 ```
-print(10<20)
-print(10<20<30)
-print(10<20<30>40)
-print(10<20>30<40)
+print(10<20)  # true
+print(10<20<30)  # true
+print(10<20<30>40)  # false
+print(10<20>30<40) # false
 ```
 ##### output
 ```
+True
+True
+False
+False
 ```
 ##### note: chaining of  relational operator is possible if all the results are true then</br> end result will be true else it will be false
 
 
 ##### 2.1 Equality operators AND(comparision operator )
 
-##### Examples:-
+##### Example:-
 ```
+# == (equal to )
+# != (not equal to)
+
+a = 10
+b = 2
+print('a==b', a==b)
+print(10!= 20 )   # true
 ```
+##### in programming double equal (==) is called as 'equal' & single equal is called "assignment operator"
 
 
+
+```
+print(10==10! = 20) # true
+```
+##### ex
+```
+a= 10
+b = 2
+print('a==b', a==b)
+print('a!=b', a!=b)
+print(10!= 20) # true
+```
+##### output
+```
+a==b False
+a!=b True
+```
 
 
 
