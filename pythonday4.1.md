@@ -82,7 +82,7 @@ lst = lst(a)
 print(lst)
 print(type(lst))
 
-# string is collection of char's and iterable in nature.</br>integer can hold only one element and string can hold "single alphabet" also group of elements also.
+##### string is collection of char's and iterable in nature.</br>integer can hold only one</br> element and string can hold "single alphabet" also group of elements also.
 
 ##### output
 ```
