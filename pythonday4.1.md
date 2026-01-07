@@ -189,6 +189,8 @@ print(a+(b+c)/d)
 ```
 
 
+#### Notes : refer day-6 sir notes for operator.
+
 
 
 
