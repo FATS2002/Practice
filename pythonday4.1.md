@@ -308,13 +308,16 @@ print(True or True)  # True
 #### logical operators on non bool datatype
 ```
 print(4 and 5) # 5
+print(0 and 5 ) # 0
+print('abcd' and 'xyx') # xyx
+print('' and 'xyz')  # empty string
 ```
 
 
 
 
 ##### For non-boolean types:
-#### 0 means False </br>non-zero means True </br>empty string is always treated as False
+#####  0 means False </br>non-zero means True </br>empty string is always treated as False
 
 #### x and y: </br> if x is evalutes to false return x otherwise return y. 
 ```
@@ -327,24 +330,66 @@ print("" and'anu')
 ##### x or y: if x is evalutes to true return x otherwise return y
 
 ```
-print(10 or 20)
-print(0 or 20)
-print('subbu' or 'anu')
-print("" or "anu")
+print(10 or 20)   # 10
+print(0 or 20)    # 20
+print('subbu' or 'anu') # subbu
+print("" or "anu")   # anu
 ```
 
 
 ##### not x: if x is false then result is true else result is false.
+##### Ex
+```
+# not
+print(not 10)  # False
+print(not 0)   # True
+```
+```
+0 1 -> bit
+00000000 -> 1 byte
+1024 -> 1KB
+1024KB -> 1Mb
+1024 Mb -> 1gb
+1024gb -> 1Tb
+```
+
+##### 4.bitwise operators
+##### 1 byte = 8 bits</br>1 bit can store either 0 or 1. </br>we can apply the following operators bitwise</br> & | ^ ~ << >> </br>
+
+
+```
+###### & -> and operator </br> | -> or operator </br>^-> xor operator</br> ~ not operator</br> << -> left shift operator </br>
+>> -> right shift operator 
+```
+
+```
+print(4 & 5) #4
+# 0000 0100  (4)
+# 0000 0101 (5)
+----
+0000 0100  (4)
 
 ```
 ```
+print('abcd' & 'xyz')  # Invalid
+print('abcd' and 'xyz') # valid
+
+print(4 | 5) # 5
+
+ 
 
 
+```
 
 
-
-
-
+##### xor
+```
+print(4 ^ 5)
+00000100
+00000101
+-------
+0000 0001  -> 1
+```
 
 
 
