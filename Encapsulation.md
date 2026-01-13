@@ -61,8 +61,22 @@ class BankAccount:
 acc = BankAccount()
 acc.deposit(1000)
 acc.show_balance()
-print(acc.__balance)  # It will throw error
+# print(acc.__balance)  # It will throw error
+print(acc._BankAccount__balance)
+
 ````
+
+##### output:
+````
+````
+
+##### setters and getters
+````
+````
+
+
+
+
 
 
 
