@@ -157,7 +157,6 @@ acc = BankAccount("Amit")
 acc.deposit(2000)
 acc.withdraw(500)
 print("Current Balance:", acc.get_balance)
-
 ````
 
 
