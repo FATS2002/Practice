@@ -69,10 +69,71 @@ print(acc._BankAccount__balance)
 ##### output:
 ````
 ````
-
 ##### setters and getters
 ````
+class Student:
+    def __init__(self):
+        self.__marks = 0
+
+    def set_marks(self, marks):
+        if marks >= 0:
+            self.__marks = marks
+
+    def get_marks(self):
+        return self.__marks
+
+
+s = Student()
+s.set_marks(85)
+print(s.get_marks())
 ````
+
+##### encapsulation using '@property' decorator
+
+````
+class Person:
+    def __init__(self):
+        self.__age = 0  # private
+
+    @property
+    def age(self): 
+        return self.__age
+
+    @age.setter
+    def age(self, value):
+        if value >= 0:
+            self.__age = value
+
+
+p = Person()
+p.age = 25
+print(p.age)
+
+````
+#@property
+````
+class Person:
+    def __init__(self):
+        self.__age = 0  # private
+
+    @property
+    def age(self): 
+        return self.__age
+
+    @age.setter
+    def age(self, value):
+        if value >= 0:
+            self.__age = value
+
+
+p = Person()
+p.age = 25
+print(p.age)
+````
+
+
+
+
 
 
 
