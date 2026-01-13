@@ -136,6 +136,30 @@ print(p.age)
 
 
 
+##### complete program demonstrating encapsulation
+````
+class BankAccount:
+    def __init__(self, account_holder):
+        self.account_holder = account_holder  # public
+        self.__balance = 0  # private
+
+    def deposit(self, amount):
+        if amount <= self.__balance:
+            self.__balance -= amount
+            print("amount withdrawn:", amout)
+        else:
+            print("Insufficient balance")
+
+    def get_balance(self):
+        return self.__balance
+
+````
+
+
+
+
+
+
 
 
 
