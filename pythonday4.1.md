@@ -385,10 +385,92 @@ print(~5)  # -6
 ##### ex
 ```
 print(10<<2)
+```
+```
 0000 1010 -> 10
 00<-
 0000 1010 <-
 0010 1000 -> 40
+```
+
+
+```
+print(10>>2)
+```
+
+```
+0000 1010 -> 10
+-> 00
+00 0000 1010
+0000  0010 ->
+```
+
+
+
+
+
+##### assignment operator
+
+```
+a = 10 
+print(a)  # 10
+# b = 2
+#a = a + b  
+#print(a)   # 12 
+a += 2 (a=a+2)
+print(a) # 2
+a *= 5
+print(a) # 60
+```
+
+
+#### example:-
+```
+a = 'sachin'
+a+="tendulker"
+print(a)  # sachintendulker
+```
+
+##### 6. ternery operator
+x = firstValue if condition is true else secondValue
+
+##### ex:-
+```
+a,b  = 10,20
+x = 30 if a<b else 40
+```
+
+
+##### 7.special operators:</br> python 3 has two sepecial operator such as:</br> 1.identity operator</br>2.membership operator
+##### identity operator:- is --> is operator will check the address of the object and the address</br> based on the if address are same it will return true else false.</br> is not --> same as "is" operator but gived the reverded result of it.
+
+##### identity operator
+```
+a= 10
+b = 2
+print(a == b) #compariny data of a and b
+print(id(a))
+print(id(b))
+print(a is b) # comparing the address of a and b(comparing the memory add of the data)
+print(a is not b)
+```
+#### output
+```
+False
+140704617362632
+140704617362376
+```
+
+##### membership check operator
+##### ex:
+```
+s= 'sachin tendulker'
+print(s)
+print(a[7])  # t
+print('t' in s)  # true(checking the data present in the dataset
+)
+print('z' in s) # false
+print('n' not in s) # false
 ```
 
 
