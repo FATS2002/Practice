@@ -20,14 +20,14 @@ print(type(a))
 ```
 
 ##### changing to float
-```
+````
 a = 10
 print(a)
 b = float(a)
 print(b)
 print(type(a))  # int
 print(type(b))  # float
-```
+````
 
 #### wap 
 ```
@@ -323,8 +323,7 @@ print(not 0)   # True(0 is false , so res is true)
 
 
 
-
-
+###### other notes:
 ```
 0 1 -> bit
 00000000 -> 1 byte
@@ -333,16 +332,14 @@ print(not 0)   # True(0 is false , so res is true)
 1024 Mb -> 1gb
 1024gb -> 1Tb
 ```
-
 ##### 4.bitwise operators
 ##### 1 byte = 8 bits</br>1 bit can store either 0 or 1. </br>we can apply the following operators bitwise</br> & | ^ ~ << >> </br>
 
 
 ```
-###### & -> and operator </br> | -> or operator </br>^-> xor operator</br> ~ not operator</br> << -> left shift operator </br>
->> -> right shift operator 
+###### & -> and operator </br> | -> or operator </br>^-> xor operator</br> ~ not operator</br> << -> left shift operator </br> >> -> right shift operator 
 ```
-
+##### and operator(when both are zero ,res is zero,only when both are one ,res is one)
 ```
 print(4 & 5) #4
 # 0000 0100  (4)
@@ -352,25 +349,40 @@ print(4 & 5) #4
 
 ```
 ```
-print('abcd' & 'xyz')  # Invalid
-print('abcd' and 'xyz') # valid
-
+print('abcd' & 'xyz')  # Invalid(bitwise and operator)
+print('abcd' and 'xyz') # valid (logical and operator)
 print(4 | 5) # 5
-
- 
-
-
 ```
 
-
-##### xor
+##### xor(both 1's are there ,res will be zero, if both 0's are there , itll be zero)
 ```
-print(4 ^ 5)
+print(4 ^ 5) 
 00000100
 00000101
 -------
 0000 0001  -> 1
 ```
+
+
+```
+x y res
+0 0 0
+0 1 1
+1 0 1
+1 1 0
+```
+
+
+#### not 
+```
+print(~20)  # -21
+print(~5)  # -6
+~ 00001 0100 --> 1's compliment
+  1110 1011 --> 2's compliment
+------------
+1110 1011 --> -21
+```
+
 
 
 
