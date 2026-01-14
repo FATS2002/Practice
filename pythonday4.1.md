@@ -647,3 +647,52 @@ else:
 
 ```
 
+
+```
+data= int(input('enter the number \n'))
+if (data<0) and (data<=100):
+  print(data, 'with in 100')
+else:
+  print(data, 'greater than 100')
+
+```
+
+##### or(nested condition)
+```
+data = int(input('enter a number \n'))
+if (data<0):
+  print(data,'-ve number')
+  if data> =100:
+    print(data, 'with in 100')
+  print(data, '-ve number')
+else:
+  print(data,'greater than 100')
+```
+
+
+
+data = int(input('enter a number \n'))
+if (data<0):
+  print(data,'-ve number')
+else:
+  if data> =100:
+    print(data, 'with in 100')
+
+
+
+
+```
+data = int(input('enter a number \n'))
+if (data<0):
+  print(data,'-ve number')
+else:
+  if data> =100:
+    print(data, 'with in 100')
+  else 
+    print(data, 'grater than 100')
+
+```
+
+
+
+##### Notes:- question was to chk inbtw 1 to 100</br>first chk whether the number is +ve no or -ve no,</br>then if it is +ve no,check if it present in less than 100 or greater than 100.
