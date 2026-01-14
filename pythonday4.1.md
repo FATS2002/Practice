@@ -670,7 +670,7 @@ else:
 ```
 
 
-
+```
 data = int(input('enter a number \n'))
 if (data<0):
   print(data,'-ve number')
@@ -678,7 +678,7 @@ else:
   if data> =100:
     print(data, 'with in 100')
 
-
+```
 
 
 ```
