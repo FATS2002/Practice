@@ -548,7 +548,7 @@ if data == 'dairymilk':
 ```
 which chocolate you want?...dairy milk
 bring it..!
-
+```
 ```
 data= input('which chocolate you want?...')
 if data == 'dairymilk':
@@ -635,9 +635,6 @@ else:
   print('num3 is greater')
 ```
 ##### output
-```
-```
-
 ##### 2. wap to check whether the given number is even or odd.</br>3.wap to check whether number is b/w 1 to 100
 
 
@@ -648,7 +645,5 @@ if data<=100:
 else:
   print(data, 'greater than 100')
 
-```
-```
 ```
 
