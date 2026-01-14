@@ -175,6 +175,9 @@ print(3+(10* 2)) # result = 23
 ```
 ##### output
 ```
+23
+26
+23
 ```
 
 
@@ -201,7 +204,7 @@ print(a+(b+c)/d)
 
 ##### relational operator </br> Examples
 ```
-# , >=, < ,<=
+# > , >=, < ,<=
 ```
 
 
@@ -209,10 +212,10 @@ print(a+(b+c)/d)
 ```
 a= 10
 b= 2
-print('a>b', a>b)
-print('a>=b',a>=b)
-print('a<b', a<b)
-print('a<=b',a<=b)
+print('a>b', a>b)  # True
+print('a>=b',a>=b) #  True
+print('a<b', a<b)   # False
+print('a<=b',a<=b)  # False
 ```
 ##### output
 ```
@@ -221,11 +224,11 @@ a>=b True
 a<b False
 a<=b False
 ```
-
+==========================================
 
 ##### Task: check out for strings and bool wrt to relational operators
 
-##### chaining wrt to relational operators
+##### chaining wrt to relational operators(all combinations are true then result is true)
 ```
 print(10<20)  # true
 print(10<20<30)  # true
@@ -239,8 +242,6 @@ True
 False
 False
 ```
-##### note: chaining of  relational operator is possible if all the results are true then</br> end result will be true else it will be false
-
 
 ##### 2.1 Equality operators AND(comparision operator )
 
@@ -250,46 +251,19 @@ False
 # != (not equal to)
 
 a = 10
-b = 2
-print('a==b', a==b)
-print(10!= 20 )   # true
+b = 2 
+print('a==b', a==b)   # False
+print('a!=b', a!=b)
+print(10!= 20 )   # true  
 ```
 ##### in programming double equal (==) is called as 'equal' & single equal is called "assignment operator"
-
-
-
-```
-print(10==10! = 20) # true
-```
-##### ex
-```
-a= 10
-b = 2
-print('a==b', a==b)
-print('a!=b', a!=b)
-print(10!= 20) # true
-```
-##### output
-```
-a==b False
-a!=b True
-```
-
-
-
-
-
-
-
-
+##### note: chaining of  relational operator is possible if all the results are true then</br> end result will be true else it will be false
+</br>
 ##### logical operators : </br> the logical operators are:</br> and or not
-
-
 ##### For boolean values types:
-##### and -> if both inputs are true then end reult is true</br> or -> if atleast one input is true then the result is true</br> not -> complement or reverse of the input
+##### and -> if both inputs are true then end result is true</br> or -> if atleast one input is true then the result is true</br> not -> complement or reverse of the input
 
 ##### bool datatype(and)
-
 ##### Ex
 ```
 print(False and False) # False
@@ -297,28 +271,26 @@ print(False and True) # False
 print (True and False) # False
 print(True and True) # True
 ```
+</br>
 ##### bool datatype(or)
 #### Ex
 ```
-print(False or False)  # False
+print(False or False)  # False  # 0 with 0 is 0  and other combinations are true
 print(False or True) # True
 print(True or False) # True
 print(True or True)  # True
 ```
-#### logical operators on non bool datatype
+
+
+#### logical operators on non-bool datatype
 ```
-print(4 and 5) # 5
-print(0 and 5 ) # 0
-print('abcd' and 'xyx') # xyx
-print('' and 'xyz')  # empty string
+print(4 and 5) # 5    (4 is true so itll return 5)
+print(0 and 5 ) # 0 ( 0 is false so itll return 0)
+print('abcd' and 'xyx') # xyx     (abcd is true so it'll return xyx)
+print('' and 'xyz')  # empty string (empty string is false itll return empty string)
 ```
-
-
-
-
 ##### For non-boolean types:
-#####  0 means False </br>non-zero means True </br>empty string is always treated as False
-
+#####  0 means False </br>non-zero means True </br>empty string is always treated as False</br> even single alphbet is treated as false
 #### x and y: </br> if x is evalutes to false return x otherwise return y. 
 ```
 print (10 and 20)
@@ -341,9 +313,18 @@ print("" or "anu")   # anu
 ##### Ex
 ```
 # not
-print(not 10)  # False
-print(not 0)   # True
+print(not 10)  # False(10 is true , so res is false)
+print(not 0)   # True(0 is false , so res is true)
 ```
+
+
+
+
+
+
+
+
+
 ```
 0 1 -> bit
 00000000 -> 1 byte
