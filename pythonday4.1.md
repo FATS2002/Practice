@@ -474,8 +474,154 @@ print('n' not in s) # false
 ```
 
 
+##### Flow control statements in python:</br> there are 3 diff types of flow control stmts in python such as;</br>1.conditional stmt</br>2.iterative stmt</br>3.transfer stmt.</br>1.conditional stmt;conditional statements consists of 3 variants such as:</br>
+
+##### 1.if</br> syntax;</br> 
+```
+if conditional : statement
+```
+#### or
+```
+if  condition :
+        statement1
+        statement2
+        statement3
+```
+##### example:
+```
+# if condition
+name = input('enter the name')
+if name =='sagar':
+  print('hello sagar how are you?')
+```
+
+```
+# input function in python
+name= input('enter your name')
+print(name)
+print(type(name))
+```
+##### output
+```
+enter your namesagar
+sagar
+<class 'str'>
+```
+
+```
+num = input('enter your roll no')
+print(num)
+print(type(num))
+```
+#### bydefault the "input" function will accept datatype in format of string
 
 
+#### typecasting
+```
+num = input('enter your roll num')
+num= int(num)
+print(num)
+print(type(num))
+```
+##### or 
+
+```
+num = int(input('enter your roll num'))
+num= int(num)
+print(num)
+print(type(num))
+```
+##### flow control stmts
+##### condition stmt
+##### if condition:</br>(if condition is true execute the body)
+```
+if condition: #if the condition is true then execute the cboyd 
+body
+```
+
+```
+data= input('which chocolate you want?...')
+if data == 'dairymilk':
+  print('bring it..!')
+```
+##### output
+```
+which chocolate you want?...dairy milk
+bring it..!
+
+```
+data= input('which chocolate you want?...')
+if data == 'dairymilk':
+  print('bring it..!')
+else: 
+  print('ice cream')
+```
+
+##### if else condition
+```
+if condition:
+  body
+else:
+  body
+```
+
+##### ex:-
+```
+if elif else condition
+if condition:
+  body
+elif condition:
+  body
+else:
+  body
+```
+
+```
+data= input('which chocolate you want?...')
+if data == 'dairymilk':
+  print('bring dairymilk')
+elif data == 'kitkat:' #else if
+  print('bring kitkat')
+else: 
+  print('bring ice cream')
+
+```
+##### no switch cases in python,but in java switch cases are present
+##### nested if
+```
+if condition:
+  if condition:
+    body
+  else:
+    body
+else: 
+  body
+```
+##### problem statements:-
+##### wap to fine the biggest number of the given two numbers.</br>wap to find the biggest number of the given three numbers
+```
+num1 = int(input('enter the num1 \n'))
+num2 = int(input('enter the num2 \n'))
+if num1> num2:
+  print('num1 is greater than num2')
+else:
+  print('num1 is lesser than num2')
+```
+##### output
+```
+enter the num1
+10
+enter the num2
+2
+num1 is greater than num2
+```
+```
+enter the num1
+2
+enter the num2
+10
+num1 is lesser than num2
+```
 
 
 
