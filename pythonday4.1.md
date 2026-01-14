@@ -638,6 +638,17 @@ else:
 ```
 ```
 
+##### 2. wap to check whether the given number is even or odd.</br>3.wap to check whether number is b/w 1 to 100
 
 
+```
+data= int(input('enter the number \n'))
+if data<=100:
+  print(data, 'with in 100')
+else:
+  print(data, 'greater than 100')
+
+```
+```
+```
 
