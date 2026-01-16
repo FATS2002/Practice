@@ -188,3 +188,68 @@ n
 ##### impt:if the focus is on element use type-1,</br> if your focus is on index number ,going forward,(ex :- there will be index no in list,tuple,indexing format for dict based on key-calye pair,for set there is not index,for other things you have index mechanism). </br> if you want to get the data through index mechanism, you want to go with "type-2".</br>if you are focusing on the element means,go with "type-1"
 
 
+#### type-2
+```
+s='sachin'
+print(s)
+for i in range(len(s)):
+  print(i,s[i],i -len(s))  #i - len(s),0-6= -6
+```
+##### output
+```
+0 s -6
+1 a -5
+2 c -4
+3 h -3
+4 i -2
+5 n -1
+```
+
+##### in inteview:- programatical interview based question is given,if you want to solve first thing,am i applying on "dataset" directly or am i going through the index format.(if you are directly applying on dataset,type-1 or you want indexnumber to fetch the element,then go with type-2 with the help of "Range datatype")
+
+
+
+##### wap tp print number of consonents and vowels in the string
+```
+s='sachin'
+[a,e,i,o,u] -> vowels rest are consonants
+vowels - 2
+consonants - 4
+
+s='sachin'
+print(s)
+for in s:
+  print(i) # traverse from first element to last element
+
+```
+
+```
+s='sachin'  # string concept taking input
+print(s)
+lst= ['a', 'e', 'i', 'o','u']   # list concept
+# i want to take count of consonants and vowels
+vo, co = 0,0 # basic declaration of any data
+for i in s:  # for loop
+  if i is lst:  # condition
+    vo = vo+1 # vo+=1
+  else:   # in conditon im using membership mechanism
+    co = co+1  # co+=1
+print('vowels',,vo)
+print('consonats',co)
+```
+
+##### output:
+```
+sachin
+vowels 2
+consonate 4
+```
+
+#### now it is giving me mechanism called "List",i will store my values in list,and it is giving me mechanism called as "membership operator",i can use that membership opertor? im asking question.(if alphabet "s" is present in list ,if "yes" it is vowel,"no" then it is  consonant)
+
+
+
+
+
+
+
