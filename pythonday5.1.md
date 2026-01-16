@@ -304,7 +304,7 @@ print(data)
 ```
 
 
-# sum function
+##### sum function
 ```
 lst= [4,6,3,8,23,72,81]
 print(sum(lst))
