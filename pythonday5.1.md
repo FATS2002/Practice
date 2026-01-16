@@ -249,7 +249,63 @@ consonate 4
 
 
 
+#### wap
+```
+ip-> lst= [4,6,3,8,23,72,81]
+even->4
+odd ->3
+
+```
+```
+lst= [4,6,3,8,23,72,81]
+print[lst]
+even, odd = 0, 0
+for i in lst:
+  print(i)
+    
+```
+```
+lst= [4,6,3,8,23,72,81]
+print[lst]
+even, odd = 0, 0
+for i in lst:
+  if i%2 ==0:
+    even+=1
+  else
+    odd+=1
+print(even)
+print(odd)
+  
+```
+##### output
+```
+[4,6,3,8,23,72,81]
+4
+3
+```
+
+##### wap to print the sum of all the elements from the list.
+```
+ip-> lst= [4,6,3,8,23,72,81]
+op->
 
 
 
+lst= [4,6,3,8,23,72,81]
+print(lst)
+data = 0
+for i in lst: # traversing
+  data = data+i
+print(data)
+```
+##### output
+```
+197
+```
 
+
+# sum function
+```
+lst= [4,6,3,8,23,72,81]
+print(sum(lst))
+```
