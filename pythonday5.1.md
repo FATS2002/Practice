@@ -1,2 +1,1 @@
-##### missing: - introduction to datatypes
-##### lang fundamentals
+##### missing: - introduction to datatypes</br>lang fundamentals</br>1.identifiers</br>2.reserved keywords</br>3.datatypes</br> 3.1typecasting</br>4. python stmts </br>4.1pythonstmts</br>4.1condition stmt (if,if-elif,if-elif,else)
