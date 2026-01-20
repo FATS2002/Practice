@@ -8,9 +8,12 @@
 print(*) # invalid
 print('*') # valid
 ```
-#####
+##### output:-
+```
+invalid star expression
+```
 
-##### p-2
+##### p-2 (horizontal  star)
 ```
 * * * * *
 ```
@@ -22,25 +25,48 @@ print('*' * 5)
 ```
 print('*\n' * 5)
 ```
+##### output:
+```
+*
+*
+*
+*
+*
+```
 
 
-##### using Range
+
+##### using "Range"
 ```
 for i in range(5):
   print(i) # it will print numbers 0 ,1,2,3, 4
   print('*')
-
 ```
 ##### output
 ```
+0
+1
+2
+3
+4
 ```
 
-
-##### p-3
 ```
 for i in range(5):
-  print('*',endl='') # end var with empty string
+  print('*')
+```
+```
+*
+*
+*
+*
+*
+```
 
+##### p-3 (horizontal star)
+```
+for i in range(5):
+  print('*',end=' ') # end var with empty string
 # println
 ```
 ##### output
@@ -61,7 +87,7 @@ stars = 5
 ```
 n = 5
 for i in range(n):  # rows (take caring abour the rows)
-  print('*',end=' ')  #endl =''
+  print('*',end=' ')  #endl =' '
 print()
 ```
 ```
@@ -71,6 +97,40 @@ for i in range(n):  # rows (take caring abour the rows)
     print('*', endl=' ')
 
 ##### where ever i hear the word repetation, use looping stmts
+```
+# 1st iteration
+i=0 j=0
+    j=1
+    j=2
+    j=3
+    j=4
+i=1 j=0
+    j=1
+    j=2
+    j=3
+    j=4
+```
+
+
+##### P-5
+```
+*
+* *
+* * *
+* * * *
+* * * * *
+Rows = 5
+star= 1,2,3,4,5(iterable variable)
+```
+```
+
+n = 6
+for i in range(1, n)
+
+
+```
+
+##### output
 
 
 
