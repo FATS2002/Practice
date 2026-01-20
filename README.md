@@ -8,4 +8,4 @@
 | 5.2 | Pattern programming | Completed |
 
 
-*pratice:</br> pattern programming,</br>for loop and</br> while loop*
+*pratice:</br> pattern programming,(for and while)</br>for loop and</br> while loop</br> convert for to while</br>while to for loop*
