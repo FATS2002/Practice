@@ -53,10 +53,7 @@ while i>=1:
 
 
 ##### *output:*
-person1:
-s= 'sachin' # i need string
-i = 0       # starting no zero
-n = len(s)   # ending no  i will get from s
+###### *person1: s= 'sachin' # i need string </br> i = 0       # starting no zero</br>n = len(s)   # ending no  i will get from s*
 
 ```
 # you need "starting point","condition"and "incr/decr"
@@ -69,6 +66,14 @@ while i< n:
   i=i+1
 ```
 
+
+
+##### *wap to count the number of even and odd numbers using while loop*
+```
+ip-> lst= [4,6,3,23,72,81]
+even-> 4
+odd-> 3
+```
 
 
 
