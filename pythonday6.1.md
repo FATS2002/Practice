@@ -117,11 +117,14 @@ print("Even =", even)
 print("Odd =", odd)
 
 ```
+##### *wap to print number of consonants and vowels in the str using while loop*
+##### *input -> sachin </br>[a,e,i,o,u] -> vowels</br>rest are consonants</br>vowles -2</br>consonants -4*
 
 
 
 
 
+##### refer the for loop practice programs and convert all of those programs to "while loop" 
 
 
 
