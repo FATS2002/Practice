@@ -1,4 +1,4 @@
-###### pythonday6.2
+###### pythonday6.1
 
 ##### while loop </br> *syntax:*
 ```
