@@ -74,6 +74,49 @@ ip-> lst= [4,6,3,23,72,81]
 even-> 4
 odd-> 3
 ```
+```
+lst= [4,6,3,8,23,72,81]
+print[lst]
+i = 0  # initial value
+n = end(lst)
+while i<n: # condtion
+  print(lst(i))
+  i+i+1  # incrementation/step size
+
+
+lst= [4,6,3,8,23,72,81]
+print[lst]
+i = 0  # initial value
+n = len(lst)
+while i<n: # condition
+  if lst[i]%2 == 0:
+    even = even+1
+  else:
+    odd = odd +1
+  i=i+1
+print('even count is:', even)
+print('odd count is: , odd')
+
+
+
+
+# claude ai 
+lst = [4, 6, 3, 8, 23, 72, 81]
+even = 0
+odd = 0
+i = 0
+n = len(lst)
+while i < n:
+    if lst[i] % 2 == 0:
+        even += 1
+    else:
+        odd += 1
+    i += 1
+
+print("Even =", even)
+print("Odd =", odd)
+
+```
 
 
 
