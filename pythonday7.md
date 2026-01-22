@@ -121,4 +121,32 @@ print(s[19:]) # word: "easy"
 
 ```
 
-``
+
+
+##### homework: wap to print the char in forward and reverse direction using while loop.
+```
+input:- sachin
+output:-
+sachin
+nihcas
+```
+
+
+```
+#s= input('enter the string \n')
+s= 'sachin'
+print(s)
+n = len(s)
+print('forward direction')
+i=0
+while i<n: #forward direction
+  print(s[i],end=' ')
+  i++
+print()
+print('reverse direction')
+i=0
+n=len(s)-1
+while n >=i:
+  print(s[n], end=' ')
+  n=n-1
+```
