@@ -274,6 +274,14 @@ print(lst)
 ```
 for i in range(1, 11):
   pass # as of now idk what to write there i will keep it as pass stmt.so it wont give me error
+if 1<10:
+  pass
+def fun():
+  pass
 ```
+*To escape from compilation time,you are gonna use the stmt called as "pass" stmt*
+
+
+
 
 
