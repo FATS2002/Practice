@@ -279,7 +279,7 @@ if 1<10:
 def fun():
   pass
 ```
-*To escape from compilation time,you are gonna use the stmt called as "pass" stmt*
+*To escape from compilation time,you are gonna use the stmt called as "pass" stmt</br> solve all pattern programming questions*
 
 
 
