@@ -221,7 +221,7 @@ for i in lst:  # bcuz im directly chking content"lst",if im checkng index no "ra
 ```
 
 
-*break will break the iteration based on condition</br> continue will skip the particular iteration based on the condition.*
+*break will break the iteration based on condition</br>continue will skip the particular iteration based on the condition.*
 
 ###### *break example:*
 ```
