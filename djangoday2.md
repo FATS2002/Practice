@@ -31,6 +31,18 @@ rakshithr@RAKSHITHRs-MacBook-Pro secondproject % python3 manage.py startapp thir
 rakshithr@RAKSHITHRs-MacBook-Pro secondproject % 
 ```
 
+##### url and path (url works for old django version and path works for new django version)
+```
+urlpatterns = [
+    path('admin/', admin.site.urls), 
+    path('',views.display),
+]
+
+
+```
+
+
+
 
 
 
