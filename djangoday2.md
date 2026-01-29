@@ -74,9 +74,38 @@ Inside 1 project (3 APPLICATIONS)
 ```
 ##### views.py
 ```
-http://127.0.0.1:8000/first/fun1/
-http://127.0.0.1:8000/first/fun2/
-http://127.0.0.1:8000/first/fun3/
+from django.contrib import admin
+from django.urls import path
+from firstapp import views as first_views  # importing views from firstapp
+from secondapp import views as second_views # importing views from secondapp
+from thirdapp import views as third_views # importing views from thirdapp
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    #firstapp
+    path('first/fun1/', first_views.fun1),
+    path('first/fun2/', first_views.fun2),
+    path('first/fun3/', first_views.fun3),
+    # secondapp
+    path('second/fun1/', second_views.fun1),
+    path('second/fun2/', second_views.fun2),
+    path('second/fun3/', second_views.fun3),
+    # thirdapp
+    path('third/fun1/', third_views.fun1),
+    path('third/fun2/', third_views.fun2),
+    path('third/fun3/', third_views.fun3),
+]
+```
+##### calling functions
+```
+
+http://127.0.0.1:8000/first/fun1/   # calling firstapp fun1
+http://127.0.0.1:8000/first/fun2/  # calling firstapp fun1
+http://127.0.0.1:8000/first/fun3/ # calling firstapp fun1
+
+http://127.0.0.1:8000/second/fun1/   # calling app fun1
+http://127.0.0.1:8000/second/fun2/  # calling firstapp fun1
+http://127.0.0.1:8000/second/fun3/ # calling firstapp fun1
 
 ```
 
