@@ -69,6 +69,16 @@ Inside 1 project (3 APPLICATIONS)
 
 ```
 
+##### url.py
+```
+```
+##### views.py
+```
+http://127.0.0.1:8000/first/fun1/
+http://127.0.0.1:8000/first/fun2/
+http://127.0.0.1:8000/first/fun3/
+
+```
 
 
 
