@@ -41,6 +41,36 @@ urlpatterns = [
 
 ```
 
+##### one project and multiple apps:-
+```
+PROJECT2:-
+
+Inside 1 project (3 APPLICATIONS)
+
+1st app and  (this is from 1st app and fun1)
+2nd app and(this is from 1st app and fun2)
+3rd app(this is from 1st app and fun2)
+
+
+
+2nd  app:3 FUNCTIONS
+1stapp_v1(this is from 2nd app and fun1)
+2ndapp_v2 (this is from 2nd app and fun2)
+3rdapp_v3(this is from 2nd app and fun3)
+3rd app: views.py
+1ST APP_v1(this is from 3rd app and fun1)
+2ND APP_v2(this is from 3rd app and fun2))
+3RD APP V3 (this is from 3rd app and fun3))
+
+3rd app(views.py)
+1st_app:-print "This is from firstapp Func1"
+2nd_app:-print "This is from Secondapp Func2"
+3rd_app:- print" This is from thirdapp Func3"
+
+```
+
+
+
 
 
 
